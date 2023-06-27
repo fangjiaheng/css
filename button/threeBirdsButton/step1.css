@@ -1,0 +1,42 @@
+/** https://zhuanlan.zhihu.com/p/584747362 **/
+body{
+  padding: 100px;
+}
+
+.button--bird {
+  --main_color: #f4cf47;
+  --base_color: #000;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 280px;
+  height: 80px;
+
+  /* 去掉a标签的下划线 */
+  text-decoration: none; 
+
+  border: solid 3px #000;
+  border-radius: 40px;
+  background : var(--main_color);
+}
+
+.button__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.button__text{
+  font-size: 32px;
+  letter-spacing: 4px;
+  color: var(--base_color);
+}
